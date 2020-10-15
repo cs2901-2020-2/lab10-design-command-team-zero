@@ -1,13 +1,11 @@
 package command;
 
-public class LightOnCommand implements Command {
+public class KitchenRoomOnCommand implements Command {
     Light light;
 
-    public LightOnCommand(Light light) {
+    public KitchenRoomOnCommand(Light light) {
         this.light = light;
     }
-    
-    
 
     @Override
     public void execute() {

@@ -11,5 +11,4 @@ public class Light {
         isOn = false;
         System.out.println("Light is "+isOn);
     }
-
 }
